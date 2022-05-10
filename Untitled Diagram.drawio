@@ -1,11 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T08:11:50.479Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="NSQFd34fJZ2iCdQUfjiJ" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-10T08:16:32.798Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="WHXjyTxhF6p8LeztK8Em" version="18.0.2" type="github">
   <diagram id="powzVTdOy7mrh9J8RPkf" name="Page-1">
-    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-ktNr8bo5s0fiX1yrDle-1" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="294" y="70" width="120" height="60" as="geometry" />
+        <mxCell id="K530X3k-7hjzJfxxTVq7-6" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K530X3k-7hjzJfxxTVq7-1" target="K530X3k-7hjzJfxxTVq7-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K530X3k-7hjzJfxxTVq7-10" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K530X3k-7hjzJfxxTVq7-1" target="K530X3k-7hjzJfxxTVq7-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K530X3k-7hjzJfxxTVq7-1" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;Microsoft YaHei UI&#39;;font-size:9.0pt;&quot;&gt;活期投资合同&lt;/pre&gt;&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;Microsoft YaHei UI&#39;;font-size:9.0pt;&quot;&gt;t_fi_currentinvestcontract&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="100" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K530X3k-7hjzJfxxTVq7-13" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="K530X3k-7hjzJfxxTVq7-2" target="K530X3k-7hjzJfxxTVq7-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K530X3k-7hjzJfxxTVq7-2" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Microsoft YaHei UI&quot; color=&quot;#080808&quot;&gt;活期投资合同计息单表&lt;span style=&quot;font-size: 9pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;Microsoft YaHei UI&amp;quot;; font-size: 9pt;&quot;&gt;t_fi_currentinvestinterests&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K530X3k-7hjzJfxxTVq7-3" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Microsoft YaHei UI&quot; color=&quot;#080808&quot;&gt;活期投合同实际收益&lt;span style=&quot;font-size: 9pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;Microsoft YaHei UI&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Microsoft YaHei UI&amp;quot;; font-size: 9pt;&quot;&gt;t_fi_currentinvestfactincomes&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K530X3k-7hjzJfxxTVq7-4" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Microsoft YaHei UI&quot; color=&quot;#080808&quot;&gt;活期投资合同计息单明细表&lt;span style=&quot;font-size: 9pt;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;Microsoft YaHei UI&amp;quot;; font-size: 9pt;&quot;&gt;t_fi_curinvestinterestdetails&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="500" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K530X3k-7hjzJfxxTVq7-7" value="n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K530X3k-7hjzJfxxTVq7-5" target="K530X3k-7hjzJfxxTVq7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K530X3k-7hjzJfxxTVq7-5" value="生成" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K530X3k-7hjzJfxxTVq7-11" value="n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K530X3k-7hjzJfxxTVq7-8" target="K530X3k-7hjzJfxxTVq7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K530X3k-7hjzJfxxTVq7-8" value="关联" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K530X3k-7hjzJfxxTVq7-14" value="n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K530X3k-7hjzJfxxTVq7-12" target="K530X3k-7hjzJfxxTVq7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K530X3k-7hjzJfxxTVq7-12" value="关联" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="380" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
