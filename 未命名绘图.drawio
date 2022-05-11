@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T13:41:52.072Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="p8wwArXvWnc6kairLXbe" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T13:42:13.530Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="nWAL5uGu4TIPCZydtLim" version="18.0.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1511" dy="926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
         <mxCell id="PAzWZB7jSIGjM0lh0B_C-29" value="2. 模板方法initFrameworkServlet，&#xa;但是还没有人用" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="PAzWZB7jSIGjM0lh0B_C-26">
           <mxGeometry y="60" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PAzWZB7jSIGjM0lh0B_C-42" value="configureAndRefreshWebApplicationContext" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;strokeColor=default;" vertex="1" parent="PAzWZB7jSIGjM0lh0B_C-25">
+        <mxCell id="PAzWZB7jSIGjM0lh0B_C-42" value="configureAndRefreshWebApplicationContext" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;strokeColor=#C73500;fillColor=#fa6800;" vertex="1" parent="PAzWZB7jSIGjM0lh0B_C-25">
           <mxGeometry x="5" y="430" width="250" height="220" as="geometry" />
         </mxCell>
         <mxCell id="PAzWZB7jSIGjM0lh0B_C-43" value="1. 初始化webAppCtx的一些属性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="PAzWZB7jSIGjM0lh0B_C-42">
@@ -95,7 +95,7 @@
         <mxCell id="PAzWZB7jSIGjM0lh0B_C-62" value="DIspatcherServlet" style="swimlane;fontColor=#000000;strokeColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="770" y="465" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="PAzWZB7jSIGjM0lh0B_C-63" value="onRefresh" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;strokeColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="PAzWZB7jSIGjM0lh0B_C-63" value="onRefresh" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#ffffff;strokeColor=#3A5431;fillColor=#6d8764;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="790" y="510" width="160" height="118" as="geometry" />
         </mxCell>
         <mxCell id="PAzWZB7jSIGjM0lh0B_C-64" value="initStrategies加载了&#xa;springMVC的9大组件在&#xa;DispatcherServlet中" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="PAzWZB7jSIGjM0lh0B_C-63">
