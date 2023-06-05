@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-05T02:01:27.726Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="IGjABokjcQOh_zmQEoFD" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-05T02:02:22.113Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="GnivctIhv9V5m6fq0JVK" version="21.3.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -15,6 +15,10 @@
         <mxCell id="fvo4OO7bao2VhtzqRqrc-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fvo4OO7bao2VhtzqRqrc-68" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="414" y="1040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="414" y="1070" />
+              <mxPoint x="415" y="1070" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="fvo4OO7bao2VhtzqRqrc-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;骏伯爬虫&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -213,6 +217,10 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="414" y="1040" as="targetPoint" />
             <mxPoint x="414" y="110" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="414" y="520" />
+              <mxPoint x="414" y="520" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="fvo4OO7bao2VhtzqRqrc-68" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 26px;&quot;&gt;问题1&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;font style=&quot;border-color: var(--border-color); text-align: left; font-size: 15px;&quot;&gt;由于素材信息达到百万量级，且清洗完的时间是下午的16：30，业务此时往往在使用创意平台。为了防止同步素材消耗太多的系统资源，影响业务正常进行，采用了实时触发同步的策略。按不同查询条件查询不到素材时，根据这些条件从数据侧获取这部分数据进行同步处理，将消耗分摊下来。但这会导致每个查询组合第一次查询时，响应时间都比较长。原因在于：&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;&lt;ol style=&quot;border-color: var(--border-color); text-align: left; font-size: 15px;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;即使是部分数据，往往也有好几万的素材；&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;素材同步过程中的步骤比较多，既要更新关联信息，还要记录变更日志&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;头条的素材在同步时需要实时获取链接，媒体对接平台平均相应近0.5s，批量请求长度限制在了100条，且高并发请求可能会有性能问题出现，因此需限制qps。批量请求时，同一媒体账号的素材才能同一批次。&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
