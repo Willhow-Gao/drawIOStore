@@ -1,9 +1,145 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T02:45:15.451Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="21.3.7" etag="6w7-mP4AICRiALyjkbgb" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T06:20:19.243Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="TWpv8K8idfwins2ic06K" version="21.3.7" type="github">
   <diagram name="第 1 页" id="71EX3WpHQpOfftVR6_2A">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="146" y="510" as="sourcePoint" />
+            <mxPoint x="146" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="226" y="510" as="sourcePoint" />
+            <mxPoint x="226" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="466" y="508" as="sourcePoint" />
+            <mxPoint x="466" y="118" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="466" y="308" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="146" y="240" as="sourcePoint" />
+            <mxPoint x="226" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-9" value="1.文件流上传" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="141" y="208" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-10" value="admin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="186" y="88" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-11" value="service" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="436" y="88" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="666" y="508" as="sourcePoint" />
+            <mxPoint x="666" y="118" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="666" y="308" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-13" value="res" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="646" y="88" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="h3Zk9G-Lbb1o8CBlDyzo-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="496" y="420" as="sourcePoint" />
+            <mxPoint x="226" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="236" y="240" />
+              <mxPoint x="236" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-17" value="2.使用ffmpeg获取文件信息并校验" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="161" y="248" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-19" value="3.根据md5查询原始素材信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="246" y="290" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.31;exitY=1.133;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="h3Zk9G-Lbb1o8CBlDyzo-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="496" y="420" as="sourcePoint" />
+            <mxPoint x="466" y="282" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="466" y="290" as="sourcePoint" />
+            <mxPoint x="226" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="226" y="330" as="sourcePoint" />
+            <mxPoint x="666" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="666" y="340" as="sourcePoint" />
+            <mxPoint x="226" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-25" value="4.上传素材到nas库" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="366" y="338" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="226" y="430" as="sourcePoint" />
+            <mxPoint x="466" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-27" value="5.2更新或新增原始素材信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="231" y="450" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="466" y="440" as="sourcePoint" />
+            <mxPoint x="226" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="226" y="380" as="sourcePoint" />
+            <mxPoint x="466" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="466" y="390" as="sourcePoint" />
+            <mxPoint x="226" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-32" value="5.1预删除同md5素材" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="226" y="388" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-33" value="h5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="125" y="88" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-34" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="169" y="500" width="26.5" height="72.12" as="geometry" />
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-35" value="固定耗时3-4s" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="137.25" y="548" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-37" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100" y="238" width="20" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="h3Zk9G-Lbb1o8CBlDyzo-38" value="平均耗时5s+" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="269" width="90" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
